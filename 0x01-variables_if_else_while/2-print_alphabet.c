@@ -2,10 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - print if the number is positive, zero or negative 
-*
-*Description: using main function
-*this program prints "Programming is positive,negative or zero"
+*main - function to print alphabet
 *Return:return 0
 */
 int main(void)
@@ -22,6 +19,3 @@ putchar(ch);
 putchar ('\n');
 return(0);
 }
-
- 
-   
