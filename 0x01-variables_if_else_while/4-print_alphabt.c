@@ -1,16 +1,21 @@
-#include <stdlib.h>
 #include <stdio.h>
 /**
-*main - enter function to decide number sign                                             
-*Return: return 0
+* main - Entry point
+*
+* Return: 0
 */
-int main(void)                                                                            {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+int main(void)
 {
-if (ch != 'e' && ch != 'q')
-putchar(ch);
-putchar('\n')
+char c, e, q;
+e = 'e';
+q = 'q';
+for (c = 'a'; c <= 'z'; c++)
+{
+if (c != e && c != q)
+{
+putchar (c);
 }
+}
+putchar ('\n');
 return (0);
 }
