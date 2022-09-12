@@ -2,29 +2,26 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - Enter function to decide number sign                                           
-* Return: return 0 
+* main - Entry point
+*
+* Return: Always 0
 */
 int main(void)
 {
 int n;
-int l;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-l = n % 10;
- printf("Last digit of %d is %d ", n, l);                                                                                                                                       if (l > 5)
+if (n % 10 > 5)
 {
-printf("and is greater than 5\n");
+printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 }
-else if (l == 0)
+else if (n % 10 == 0)
 {
-printf("and is 0\n");
+printf("Last digit of %d is %d and is 0\n", n, n % 10);
 }
-else if (l < 6 && l != 0)
+else
 {
-printf("and is less than 6 and not 0\n");
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 }
 return (0);
 }
-
