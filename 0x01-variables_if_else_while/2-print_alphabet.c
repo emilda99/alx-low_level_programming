@@ -2,19 +2,20 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - function to print alphabet
-*Return:return 0
+*main - print the letters of the alphabet
+*
+*Description: print the letters of the alphabet
+*
+*Return: Always 0 (Success
 */
 int main(void)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-char ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
+int i = 97;
+while (i < 123)
 {
-putchar(ch);
+putchar(i);
+i++;
 }
-putchar ('\n');
+putchar(10);
 return (0);
 }
