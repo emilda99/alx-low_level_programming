@@ -1,1 +1,1 @@
-When I was having that alphabet soup
+Write a program that prints all single digit numbers of base 10 starting from 0
