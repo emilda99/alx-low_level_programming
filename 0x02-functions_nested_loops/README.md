@@ -1,1 +1,1 @@
-Write a program that computes and prints the sum of all the multiples of 3 or 5 below 1024
+Write a program that prints the first 50 Fibonacci numbers
