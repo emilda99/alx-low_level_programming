@@ -1,1 +1,1 @@
-Write a function that prints all natural numbers from n to 98
+Write a function that prints the 9 times table, starting with 0
