@@ -1,1 +1,1 @@
-Write a program that finds and prints the largest prime factor
+Write a function that prints an integer
