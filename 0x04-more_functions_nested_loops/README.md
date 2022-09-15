@@ -1,1 +1,1 @@
-Write a function that prints the number
+Write a function that prints the numbers from 0 to 9
