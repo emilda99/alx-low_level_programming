@@ -1,1 +1,1 @@
-Write a function that prints a triangle
+Write a program that finds and prints the largest prime factor
