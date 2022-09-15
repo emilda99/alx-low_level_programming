@@ -1,1 +1,1 @@
-Write a function that multiplies two integers
+Write a function that prints the number
