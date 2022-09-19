@@ -1,1 +1,1 @@
-Write a function that prints n elements of an array of integers
+Write a function that copies the string pointed to by src
