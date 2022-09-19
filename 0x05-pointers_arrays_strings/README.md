@@ -1,1 +1,1 @@
-Write a function that prints a string
+Write a function that prints half of a string
