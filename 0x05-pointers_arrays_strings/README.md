@@ -1,1 +1,1 @@
-Write a function that prints half of a string
+Write a function that prints n elements of an array of integers
