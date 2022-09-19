@@ -1,1 +1,1 @@
-Write a function that copies the string pointed to by src
+Write a function that convert a string to an integer
