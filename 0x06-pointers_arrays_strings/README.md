@@ -1,1 +1,1 @@
-The _strncat function is similar to the _strcat function
+Write a function that copies a string
