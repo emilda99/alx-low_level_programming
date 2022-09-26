@@ -29,7 +29,7 @@ break;
 }
 }
 if (occurance != haystack) /* didn't reset, found match */
-return (occurance);
+return (occurance); /* didn't find match */
 }
 haystack++;
 }
