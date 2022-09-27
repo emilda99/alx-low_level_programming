@@ -6,32 +6,27 @@
 * @haystack: string to search
 * @needle: substring to find
 *
-* Return: pointer to start of needle
-* in haystack
+* Return: pointer to the beginning of the located substring, or NULL if
+* the substring is not found.
 */
 char *_strstr(char *haystack, char *needle)
 {
-char *occurance, *tempNeedle;
-if (!*needle) /* empty needle */
-return (haystack);
+int i;
+int s = 0;
+while (needle[s] != '\0')
+s++;
 while (*haystack)
 {
-if (*haystack == *needle) /* first ch match */
+for (i = 0; needle[i]; i++)
 {
-occurance = haystack;
-tempNeedle = needle;
-while (*tempNeedle) /* check if match */
-{
-if (*haystack++ != *tempNeedle++)
-{ /* not a match, reset pointer to first occurance */
-haystack = occurance;
+if (haystack[i] != needle[i])
 break;
 }
-}
-if (occurance != haystack) /* didn't reset, found match */
-return (occurance); /* didn't find match */
-}
+if (i != s)
 haystack++;
+else
+return (haystack);
 }
-return (0); /* didn't find match */
- 
+return (NULL);
+}
+
