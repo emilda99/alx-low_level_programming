@@ -1,0 +1,1 @@
+hello,this project  focuses on the concept of arguments to main.
