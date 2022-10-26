@@ -1,0 +1,1 @@
+hello,this project is focused on learning more about singly linked lists.
