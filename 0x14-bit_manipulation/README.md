@@ -1,0 +1,1 @@
+hello,this project is focused on bit manipulation.The end goal is to learn how to manipulate bits and use bitwise operators.
