@@ -1,21 +1,20 @@
 #include "lists.h"
-
 /**
- * print_dlistint - print element in list
- * @h:struct list
- * Return:list len
+ * print_dlistint - prints length and elements
+ * @h: head of list
+ * Return: size_t value
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	int i;
-	size_t len = 0;
+	const dlistint_t *tmp;
+	int count = 0;
 
-	for (i = 0; h; i++)
+	tmp = h;
+	while (tmp != NULL)
 	{
-		printf("%d\n", h->n);
-		h = h->next;
-		len++;
+		printf("%d\n", tmp->n);
+		tmp = tmp->next;
+		count++;
 	}
-return (len);
+	return (count);
 }
-
